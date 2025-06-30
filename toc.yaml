@@ -1,8 +1,0 @@
-title: Документация API магазина питомцев
-href: index.yaml
-items:
-  - name: Swagger Petstore API
-    include:
-      path: petstore-api-draft.yaml
-      mode: generator
-      includer: swagger
