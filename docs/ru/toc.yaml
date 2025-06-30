@@ -1,0 +1,20 @@
+title: Шаблон проекта документации
+href: index.yaml
+items: 
+  - name: О проекте
+    href: about.md
+  - name: Дополнительная страница
+    href: page.md
+  - name: Другая страница
+    href: anotherpage.md
+  - name: Подраздел
+    include:
+      path: sub-section/toc.yaml
+      mode: link
+  - name: Swagger Petstore API
+      include:
+        path: Swagger Petstore API
+        includers:
+          - name: Swagger Petstore API
+            input: petstore-api-draft.yaml
+        mode: link
